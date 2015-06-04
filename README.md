@@ -8,6 +8,18 @@ Pass an HTMLImageElement receive a Canvas back
 
 [![NPM](https://nodei.co/npm/image-to-canvas.png)](https://www.npmjs.com/package/image-to-canvas)
 
+```javascript
+var imageToCanvas = require('image-to-canvas');
+var image = new Image();
+
+image.src = 'some uri';
+
+imageToCanvas(image, function(err, canvas) {
+
+});
+```
+
+
 ## License
 
 MIT, see [LICENSE.md](http://github.com/Jam3/image-to-canvas/blob/master/LICENSE.md) for details.
