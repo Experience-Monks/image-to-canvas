@@ -1,0 +1,31 @@
+{
+  "name": "image-to-canvas",
+  "version": "1.0.0",
+  "description": "Pass an HTMLImageElement receive a Canvas back",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "baboon-image-uri": "^1.0.1",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "image,canvas,convert"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/image-to-canvas.git"
+  },
+  "homepage": "https://github.com/Jam3/image-to-canvas",
+  "bugs": {
+    "url": "https://github.com/Jam3/image-to-canvas/issues"
+  }
+}
