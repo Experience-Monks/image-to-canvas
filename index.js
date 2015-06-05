@@ -1,7 +1,6 @@
 module.exports = function imageToCanvas(image, cb) {
 
   var canvas = image;
-  var context;
 
   if(image instanceof HTMLImageElement) {
     
@@ -34,8 +33,9 @@ module.exports = function imageToCanvas(image, cb) {
 
 function getCanvasFromImage(image) {
 
-  canvas = document.createElement('canvas');
-  context = canvas.getContext('2d');
+  var canvas = document.createElement('canvas');
+  var context = canvas.getContext('2d');
+
   canvas.width = image.width;
   canvas.height = image.height;
   context.drawImage(image, 0, 0);
