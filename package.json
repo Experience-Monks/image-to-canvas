@@ -1,6 +1,6 @@
 {
   "name": "image-to-canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pass an HTMLImageElement receive a Canvas back",
   "main": "index.js",
   "license": "MIT",
